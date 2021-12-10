@@ -334,14 +334,23 @@ nav a {
 /* footer */
 
 footer {
-    background-color: #5d4e6d;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+	background-color: #5D4E6D;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
 	-webkit-box-shadow: 1px 5px 12px 1px #000000; 
 	box-shadow: 1px 5px 12px 1px #000000;
 
 }
 .footer-logo {
     height: 100px;
+}
+.network {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 20%;
 }
