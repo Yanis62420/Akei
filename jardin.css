@@ -1,0 +1,80 @@
+header {
+    background-color: #272440;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav_logo {
+    height: 100px;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 600px;
+}
+nav li {
+    list-style: none;
+}
+nav a {
+    color: #e68e5f;
+    text-decoration: none;
+}
+.header-button {
+    background-color: #e68e5f;
+    height: 50px;
+    width: 150px;
+    border-radius: 15px;
+}
+.header-button a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 15px;
+}
+.header-button:hover {
+    background-color: #FFF;
+    transition: 0.8s;
+}
+.header-button a:hover {
+    color: #e68e5f;
+}
+.jardin {
+    justify-content: center;
+    text-align: center;
+}
+.jardin h2{
+    font-family: Poppins;
+    color: #7e9181;
+}
+.image {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+.article {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: space-around;
+}
+.content-article {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: -200px;
+}
+.article1 {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.content-article1 {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: -200px;
+
+    
+}
