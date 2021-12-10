@@ -43,6 +43,7 @@ nav a {
 .jardin {
     justify-content: center;
     text-align: center;
+    
 }
 .jardin h2{
     font-family: Poppins;
@@ -139,4 +140,88 @@ section {
     visibility: visible;
     opacity: 1;
     z-index: 9999;
+}
+.section-1 {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 700px;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 20px;
+}
+
+/* nav gauche  */
+.nav-gauche {
+	background-color: #272436;
+	height: 600px;
+	
+	-webkit-box-shadow: 1px 5px 12px 1px #000000; 
+    box-shadow: 1px 5px 12px 1px #000000;
+    
+    width: 20%;
+    position: fixed;
+    top: 10;
+}
+.nav-gauche ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 15%;
+}
+.nav-gauche li {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.nav-gauche button {
+	margin-bottom: 5px;
+	background-color: #e68e5f;
+	height: 50px;
+	width: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	border-radius: 5px;
+}
+.nav-gauche a {
+	color: #FFF;
+}
+.nav-gauche button:hover {
+	background-color: #FFF;
+	transition: 0.8s;
+}
+.nav-gauche a:hover {
+	color: #e68e5f;
+}
+main {
+    display: flex;
+    width: 80%;
+    
+}
+footer {
+	background-color: #5D4E6D;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	-webkit-box-shadow: 1px 5px 12px 1px #000000; 
+    box-shadow: 1px 5px 12px 1px #000000;
+    margin-top: 30px;
+
+}
+.footer-logo {
+    height: 100px;
+}
+.network {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 20%;
 }
