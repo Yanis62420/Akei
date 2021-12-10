@@ -1,12 +1,145 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <title>AKEI -- Page principal</title>
 </head>
+<header>
+    <div class="logo">
+        <img src="./img/Akei.png" alt="logo" class="nav_logo">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">contact</a></li>
+            <li><a href="#">Qui sommes nous ?</a></li>
+        </ul>
+    </nav>
+    <div class="header-btn">
+        <button class="header-button"><a href="#">Mon panier <span class="iconify" data-icon="akar-icons:basket"
+                    id="panier"></span></a></button>
+    </div>
+</header>
+
 <body>
-    <script src="script.js"></script>
+    <main>
+        <section class="section-1">
+            <div class="nav-gauche">
+                <ul>
+                    <li><button><a href="./chauffage.html">Chauffage</a></button></li>
+                    <li><button><a href="">Jardinage</a></button></li>
+                    <li><button><a href="./decoration.html">Décoration</a></button></li>
+                    <li><button><a href="">Mobilier</a></button></li>
+                    <li><button><a href="./outillage.html">Outillages</a></button></li>
+                    <li><button><a href="">Eléctricité</a></button></li>
+                    <li><button><a href="./peinture.html">Peinture</a></button></li>
+                    <li><button><a href="">Restauration</a></button></li>
+                    <li><button><a href="">Contact</a></button></li>
+                    <li><button><a href="">Pourquoi nous ?</a></button></li>
+                </ul>
+            </div>
+            <div class="background-droite">
+                <div class="icon">
+                    <div class="produit">
+                        <div class="bordure">
+                            <div class="icon-iconify">
+                                <span class="iconify" data-icon="bi:tools" data-height="50px"></span>
+                            </div>
+                        </div>
+                        <p>Plus de 300 produits</p>
+                    </div>
+                    <div class="employes">
+                        <div class="bordure">
+                            <div class="icon-iconify"><span class="iconify" data-icon="raphael:employee"
+                                    data-height="50px"></span></div>
+                        </div>
+                        <p>3 employés</p>
+                    </div>
+
+
+                    <div class="origine">
+                        <div class="bordure">
+                            <div class="icon-iconify">
+                                <span class="iconify" data-icon="fa-regular:building" data-height="50px"></span>
+                            </div>
+                        </div>
+                        <p>Origine France</p>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </section>
+
+        <section class="section-slide">
+            <div class="titre">
+                <h1>Notre selection de produits</h1>
+            </div>
+            <div id="slideshow">
+
+
+                <div class="container">
+                    <div class="c_slider"></div>
+                    <div class="slider">
+                        <figure>
+                            <img src="img/parisot-armoire-decor-chene-3-portes-avec-miro.webp" alt="" width="640"
+                                height="310" />
+                            <figcaption>Armoire</figcaption>
+
+                        </figure>
+                        <!--
+                    -->
+                        <figure>
+                            <img src="img/table-a-manger-en-acacia-massif-et-metal-noir-l175-cm-kora-46351-principale_660_427_0.jpg"
+                                alt="" width="640" height="310" />
+                            <figcaption>Table à manger</figcaption>
+                        </figure>
+                        <!--
+                    -->
+                        <figure>
+                            <img src="img/bobochic-marius-canape-d-angle-convertible-avec-coffre-4-places-droit.jpg"
+                                alt="" width="640" height="310" />
+                            <figcaption>Canapé d'angle</figcaption>
+
+                        </figure>
+                        <!--
+                    -->
+                        <figure>
+                            <img src="img/lit-enfant-tiroir-plume-gris-70x140-chambre-enfant-petite-amelie.jpg" alt=""
+                                width="640" height="310" />
+                            <figcaption>Lit enfant</figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <span id="timeline"></span>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-logo">
+            <img src="./img/Akei.png" alt="logo" class="footer-logo">
+        </div>
+        <div class="network">
+            <a href="http://instagram.fr"><span class="iconify" data-icon="akar-icons:instagram-fill"
+                    style="color: white;"></span></a>
+            <a href="http://facebook.fr"><span class="iconify" data-icon="akar-icons:facebook-fill"
+                    style="color: white;"></span></span></a>
+            <a href="http://linkedin.fr"><span class="iconify" data-icon="akar-icons:linkedin-fill"
+                    style="color: white;"></span></span></a>
+        </div>
+        <div class="top-arrow">
+            <a href="#"><span class="iconify" data-icon="oi:arrow-circle-top" style="color: white;"></span></a>
+        </div>
+    </footer>
+
 </body>
+<script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+<script src="script.js"></script>
+
 </html>
