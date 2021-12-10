@@ -44,17 +44,71 @@ nav a {
 }
 
 /************************* Fin Header ************************/
-
-.menuGauche{
-
+.Haut{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-.intMenuGauche{
-
+.image{
+    height: 600px;
+    /* width: 933px; */
+    margin-left: 20px;
+    /* margin-top: 20px; */
+    /* -webkit-box-shadow: 1px 5px 12px 1px #000000;  */
+	/* box-shadow: 1px 5px 12px 1px #000000; */
+    border-radius: 15px;
+    /* object-fit: contain; */
 }
 
-.image_decoration{
-
+/* nav gauche  */
+.nav-gauche {
+	background-color: #272436;
+	height: 600px;
+	width: 25%;
+	/* -webkit-box-shadow: 1px 5px 12px 1px #000000;  */
+	box-shadow: 1px 5px 12px 1px #000000;
+    margin-top: 45px;
+    padding-left: 70px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+.nav-gauche ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 15%;
+}
+.nav-gauche li {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.nav-gauche button {
+	margin-bottom: 5px;
+	background-color: #e68e5f;
+	height: 50px;
+	width: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    text-align: center;
+	flex-wrap: wrap;
+	border-radius: 5px;
+}
+.nav-gauche a {
+	color: #FFF;
+}
+.nav-gauche button:hover {
+	background-color: #FFF;
+	transition: 0.8s;
+}
+.nav-gauche a:hover {
+	color: #e68e5f;
 }
 
 /*************************************************/
@@ -78,6 +132,7 @@ p{
     align-items: center;
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 50px;
     
 }
 
