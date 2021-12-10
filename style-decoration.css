@@ -1,0 +1,160 @@
+header {
+    background-color: #5D4E6D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav_logo {
+    height: 100px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 600px;
+}
+nav li {
+    list-style: none;
+}
+nav a {
+    color: #e68e5f;
+    text-decoration: none;
+}
+.header-button {
+    background-color: #e68e5f;
+    height: 50px;
+    width: 150px;
+    border-radius: 15px;
+}
+.header-button a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 15px;
+}
+.header-button:hover {
+    background-color: #FFF;
+    transition: 0.8s;
+}
+.header-button a:hover {
+    color: #e68e5f;
+}
+
+/************************* Fin Header ************************/
+
+.menuGauche{
+
+}
+
+.intMenuGauche{
+
+}
+
+.image_decoration{
+
+}
+
+/*************************************************/
+
+h1{
+    margin: 30px;
+}
+
+p{
+    font-size: 20px;    
+    /* font-weight: bolder; */
+    text-align: left;
+    margin: 30px;
+}
+
+/*************************************************/
+
+.photosBas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.rideauEtPara{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.rideau{
+    width: 192px;
+    height: 352px;
+    border-radius: 15px;
+    object-fit: cover;
+
+}
+
+.tapisEtPara{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.tapis{
+    width: 192px;
+    height: 352px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.DecorationMurale{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.murale{
+    width: 192px;
+    height: 352px;
+    border-radius: 15px;
+    object-fit: cover;
+
+}
+
+.eclairageEtPara{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.eclairage{
+    width: 192px;
+    height: 352px;
+    border-radius: 15px;
+    object-fit: cover;
+
+}
+
+.revetementEtPara{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.revetement{
+    width: 192px;
+    height: 352px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+/********************** Footer ***************************/
+
+footer{
+    background-color: #5D4E6D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
