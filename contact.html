@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contactez nous</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-contact.css">
 </head>
+
 <body>
     <!--NAV du haut-->
     <header>
@@ -24,6 +26,85 @@
                         id="panier"></span></a></button>
         </div>
     </header>
+
+    <main>
+        
+        <section class="section-1">
+            <div class="nav-gauche">
+                <ul>
+                    <li><button><a href="./chauffage.html">Chauffage</a></button></li>
+                    <li><button><a href="jardin.html">Jardinage</a></button></li>
+                    <li><button><a href="./decoration.html">Décoration</a></button></li>
+                    <li><button><a href="">Mobilier</a></button></li>
+                    <li><button><a href="./outillage.html">Outillages</a></button></li>
+                    <li><button><a href="">Eléctricité</a></button></li>
+                    <li><button><a href="./peinture.html">Peinture</a></button></li>
+                    <li><button><a href="">Restauration</a></button></li>
+                    <li><button><a href="">Contact</a></button></li>
+                    <li><button><a href="">Pourquoi nous ?</a></button></li>
+                </ul>
+            </div>
+        </section>
+        
+        <section class="partie2">
+            <div class="contact">
+                <h2>Page de Contact</h2>
+                <div class="logo">
+                    <div class="logo-phone">
+                        <span class="iconify" data-icon="akar-icons:phone" style="color: #f68e5f;" data-width="100"
+                            data-height="100"></span>
+                        <h2>Numéro de téléphone</h2>
+                        <p>06.06.06.06.06</p>
+                    </div>
+                    <div class="logo-mail">
+                        <span class="iconify" data-icon="fluent:mail-16-filled" style="color: #f68e5f;" data-width="100"
+                            data-height="100"></span>
+                        <h2>E-mail</h2>
+                        <p>sss@gmail.com</p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="formulaire">
+        <div class="contactez-nous">
+            <h2>Contactez-nous</h2>
+            <p>Un problème, une question, envie de nous envoyer un message d’amour ?</p>
+            <form action="/action_page.php">
+                <label for="fname"></label>
+                <input type="text" id="fname" name="firstname" placeholder="Votre nom et prénom">
+    
+                <label for="sujet"></label>
+                <input type="text" id="sujet" name="sujet" placeholder="L'objet de votre message">
+    
+                <label for="emailAddress"></label>
+                <input id="emailAddress" type="email" name="email" placeholder="Votre email">
+    
+                <label for="subject"></label>
+                <textarea id="subject" name="subject" placeholder="Votre message" style="height:200px"></textarea>
+    
+                <input type="submit" value="Essaye pour voir ! ">
+            </form>
+        </div>
+    </section>
+    </main>
+    <footer>
+        <div class="footer-logo">
+            <img src="image/Akei.jpg" alt="logo" class="footer-logo">
+        </div>
+        <div class="network">
+            <a href="http://instagram.fr"><span class="iconify" data-icon="akar-icons:instagram-fill"
+                    style="color: white;" data-height="50px"></span></a>
+            <a href="http://facebook.fr"><span class="iconify" data-icon="akar-icons:facebook-fill"
+                    style="color: white;" data-height="50px"></span></span></a>
+            <a href="http://linkedin.fr"><span class="iconify" data-icon="akar-icons:linkedin-fill"
+                    style="color: white;" data-height="50px"></span></span></a>
+        </div>
+        <div class="top-arrow">
+            <a href="#"><span class="iconify" data-icon="oi:arrow-circle-top" style="color: white;" data-height="50px"></span></a>
+        </div>
+    </footer>
     <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
 </body>
+
 </html>
