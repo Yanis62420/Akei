@@ -4,6 +4,8 @@ header {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    -webkit-box-shadow: 1px 5px 12px 1px #000000; 
+	box-shadow: 1px 5px 12px 1px #000000;
 }
 
 .nav_logo {
@@ -44,7 +46,11 @@ nav a {
 }
 
 /************************* Fin Header ************************/
-
+h1{
+    margin-bottom: 1050px;
+    align-items: center;
+    text-align: center;
+}
 
 .Haut{
     display: flex;
@@ -215,4 +221,6 @@ footer{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    -webkit-box-shadow: 1px 5px 12px 1px #000000; 
+	box-shadow: 1px 5px 12px 1px #000000;
 }
