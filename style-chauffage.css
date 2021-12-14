@@ -4,6 +4,8 @@ header {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    -webkit-box-shadow: 1px 5px 12px 1px #000000; 
+	box-shadow: 1px 5px 12px 1px #000000;
 }
 
 .nav_logo {
@@ -45,23 +47,32 @@ nav a {
 
 /************************* Fin Header ************************/
 
-.haut{              /* DIV qui contient
-                    .nav-gauche + h1 + .photosHaut*/
+.paraHaut{
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    margin-top: 50px;
+}
+
+.Haut{              /* DIV qui contient .nav-gauche + h1 + .photosHaut*/
     display:flex;
     flex-direction:row;
     width: 100%;
     height: 600px;
+    margin-bottom: 100px;
+    
 }
-
 /* nav gauche  */
 .nav-gauche {
 	background-color: #272436;
 	height: 600px;
 	width: 25%;
-	/* -webkit-box-shadow: 1px 5px 12px 1px #000000;  */
+	-webkit-box-shadow: 1px 5px 12px 1px #000000; 
 	box-shadow: 1px 5px 12px 1px #000000;
     margin-top: 45px;
-    padding-left: 30px;
+    padding-left: 60px;
     border-radius: 15px;
     margin-bottom: 50px;
     display: flex;
@@ -105,9 +116,10 @@ nav a {
 
 
 /***********/
-
 h1{
-    margin: 30px;
+    margin-bottom: 50px;
+    align-items: center;
+    text-align: center;
 }
 
 .photosHaut{
@@ -115,23 +127,28 @@ h1{
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    width: 70%;
+    margin-top: 75px;
+    /* margin-bottom: 50px; */
+    width: 75%;
+    /* margin-top: 0px; */
+    
 }
 
 .RadiateurSoufflantMobile{
     justify-content: center;
     align-items: center;
     text-align: center;
+    
 
 }
 
 .SoufflantMobile{
-    width: 192px;
-    height: 352px;
+    width: 250px;
+    height: 450px;
     border-radius: 15px;
     object-fit: cover;
+    /* -webkit-box-shadow: 1px 5px 12px 1px #000000;  */
+	/* box-shadow: 1px 5px 12px 1px #000000; */
 
 }
 
@@ -142,23 +159,28 @@ h1{
 }
 
 .IsolantThermique{
-    width: 192px;
-    height: 352px;
+    width: 250px;
+    height: 450px;
     border-radius: 15px;
-    object-fit: cover;
+    /* object-fit: cover; */
+    /* -webkit-box-shadow: 1px 5px 12px 1px #000000;  */
+	/* box-shadow: 1px 5px 12px 1px #000000; */
 }
 
 .RadiateurBainHuile{
     justify-content: center;
     align-items: center;
     text-align: center;
+    
 }
 
 .BainHuile{
-    width: 192px;
-    height: 352px;
+    width: 250px;
+    height: 450px;
     border-radius: 15px;
     object-fit: cover;
+    /* -webkit-box-shadow: 1px 5px 12px 1px #000000;  */
+	/* box-shadow: 1px 5px 12px 1px #000000; */
 
 }
 
@@ -168,8 +190,36 @@ h1{
     width: 100%;
     border-radius: 15px;
     margin-bottom: 50px;
+    -webkit-box-shadow: 1px 5px 12px 1px #000000; 
+	box-shadow: 1px 5px 12px 1px #000000;
 }
 
+
+.para{
+    font-size: 24px;
+}
+
+.photosBas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.Une{
+    width: 230px;
+    height: 70px;
+    font-size: 22px;
+    justify-content: space-around;
+    border-radius: 15px;
+    display: flex;
+    background-color: #e68e5f;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 1px 5px 12px 1px #000000; 
+	box-shadow: 1px 5px 12px 1px #000000;
+}
 /********************** Footer ***************************/
 
 footer{
@@ -179,4 +229,6 @@ footer{
     align-items: center;
     flex-wrap: wrap;
     margin-top: 50px;
+    -webkit-box-shadow: 1px 5px 12px 1px #000000; 
+	box-shadow: 1px 5px 12px 1px #000000;
 }
