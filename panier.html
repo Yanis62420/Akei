@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./panier.css">
+    <title>AKEI -- Page panier</title>
+</head>
+<header>
+    <div class="logo">
+        <img src="./img/Akei.png" alt="logo" class="nav_logo">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./contact.html">contact</a></li>
+            <li><a href="#">Qui sommes nous ?</a></li>
+        </ul>
+    </nav>
+    <div class="header-btn">
+        <button class="header-button"><a href="#">Mon panier <span class="iconify" data-icon="akar-icons:basket"
+                    id="panier"></span></a></button>
+    </div>
+</header>
+<body>
+    <div class="titre-1">
+        <h1>Récapitulatif de votre commande</h1>
+    </div>
+    <main>
+        <section class="section-recap">
+            <div class="recap">
+
+            </div>
+            <div class="paiement">
+                <div class="prix">
+                    <div class="prix-texte">
+                    <h5>Produits :</h5>
+                    <h5>Livraison :</h5>
+                    <h2>Prix Total :</h2>
+                </div>
+                <div class="prix-btn">
+                    <button class="btn"><a href="#">Valider ma commande</a></button>
+                </div>
+                </div>
+                <div class="reduc">
+                    <textarea name="reduc" id="reduc" cols="40" rows="1">Mon code de réduction</textarea>
+                    <button class="btn-reduc">Ajouter mon code</button>
+                </div>
+                <div class="recap-num">
+                    <h4>Une question ? contactez-nous au 09 xx xx xx xx</h4>
+                </div>
+                <div class="recap-logo">
+                     <span class="iconify" data-icon="carbon:delivery-parcel" style="color: #e68e5f;" data-width="50" data-height="50"></span><p> Livraison en 24h chrono !</p>
+                     <span class="iconify" data-icon="icon-park-outline:transport" style="color: #e68e5f;" data-width="50" data-height="50"></span><p> Livraison offerte à partir de 300 euros d'achats</p>
+                     <span class="iconify" data-icon="ant-design:lock-filled" style="color: #e68e5f;" data-width="50" data-height="50"></span><p>Paiements ultra sécurisé</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer-logo">
+            <img src="./img/Akei.png" alt="logo" class="footer-logo">
+        </div>
+        <div class="network">
+            <a href="http://instagram.fr"><span class="iconify" data-icon="akar-icons:instagram-fill"
+                    style="color: white;" data-height="50px"></span></a>
+            <a href="http://facebook.fr"><span class="iconify" data-icon="akar-icons:facebook-fill"
+                    style="color: white;" data-height="50px"></span></span></a>
+            <a href="http://linkedin.fr"><span class="iconify" data-icon="akar-icons:linkedin-fill"
+                    style="color: white;" data-height="50px"></span></span></a>
+        </div>
+        <div class="top-arrow">
+            <a href="#"><span class="iconify" data-icon="oi:arrow-circle-top" style="color: white;" data-height="50px"></span></a>
+        </div>
+    </footer>
+    
+</body>
+<script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+<script src="panier.js"></script>
+</html>
