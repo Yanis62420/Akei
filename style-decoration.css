@@ -147,74 +147,19 @@ p{
     flex-wrap: wrap;
 }
 
-.rideauEtPara{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
-}
-
-.rideau{
-    width: 192px;
-    height: 352px;
-    border-radius: 15px;
-    object-fit: cover;
-
-}
-
-.tapisEtPara{
+.container{
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-.tapis{
+.image4{
     width: 192px;
     height: 352px;
     border-radius: 15px;
     object-fit: cover;
 }
 
-.DecorationMurale{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.murale{
-    width: 192px;
-    height: 352px;
-    border-radius: 15px;
-    object-fit: cover;
-
-}
-
-.eclairageEtPara{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.eclairage{
-    width: 192px;
-    height: 352px;
-    border-radius: 15px;
-    object-fit: cover;
-
-}
-
-.revetementEtPara{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.revetement{
-    width: 192px;
-    height: 352px;
-    border-radius: 15px;
-    object-fit: cover;
-}
 
 /********************** Footer ***************************/
 
@@ -261,26 +206,23 @@ nav ul { /* Header*/
 
 @media (max-width :801px) and (min-width : 400px){
 
-    nav ul { /* Header*/
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        width: 400px;
-        text-align: center;
-        justify-content: space-evenly;
-        
-        margin: auto;
+nav ul { /* Header*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 400px;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: auto;
     }
 
-    header{
-        justify-content: space-around;
-        text-align: center;
+header{
+    justify-content: space-around;
+    text-align: center;
     }
 
-
-    /* nav gauche  */
-.nav-gauche {
+.nav-gauche {   /* nav gauche  */
     width: 20vw;
     height: 50vh;
     display: flex;
@@ -297,17 +239,9 @@ nav ul { /* Header*/
     margin: 0;
 }
 
-.nav-gauche button {
-    /* background-color: blue; */
-    
-
-}
-
-    .image{
-        max-width: 600px;
-        max-height: 300px;
-        
-    
+.image{
+    max-width: 600px;
+    max-height: 300px;
 }
 
 
