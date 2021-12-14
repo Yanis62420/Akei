@@ -232,3 +232,20 @@ footer{
     -webkit-box-shadow: 1px 5px 12px 1px #000000; 
 	box-shadow: 1px 5px 12px 1px #000000;
 }
+
+
+/********************************************************/
+
+@media only screen and (min-width:375px){
+
+    nav ul { /* Header*/
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 150px;
+        text-align: center;
+        /* justify-content: center; */
+        /* margin: auto; */
+    }
+}
