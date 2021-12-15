@@ -1,369 +1,455 @@
 body {
-	height: 150vh;
+  height: 150vh;
 }
 
 /* Header */
 header {
-    background-color: #5d4e6d;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	flex-wrap: wrap;
-	-webkit-box-shadow: 1px 5px 12px 1px #000000; 
-	box-shadow: 1px 5px 12px 1px #000000;
+  background-color: #5d4e6d;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  -webkit-box-shadow: 1px 5px 12px 1px #000000;
+  box-shadow: 1px 5px 12px 1px #000000;
 }
 .nav_logo {
-    height: 100px;
+  height: 100px;
 }
 nav ul {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	width: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 600px;
 }
 nav li {
-	list-style: none;
+  list-style: none;
 }
 nav a {
-	color: #e68e5f;
-	text-decoration: none;
+  color: #e68e5f;
+  text-decoration: none;
 }
 .header-button {
-	background-color: #e68e5f;
-	height: 50px;
-	width: 150px;
-	border-radius: 15px;
+  background-color: #e68e5f;
+  height: 50px;
+  width: 150px;
+  border-radius: 15px;
 }
 .header-button a {
-	text-decoration: none;
-	color: #FFF;
-	font-size: 15px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
 }
 .header-button:hover {
-	background-color: #FFF;
-	transition: 0.8s;
+  background-color: #fff;
+  transition: 0.8s;
 }
 .header-button a:hover {
-	color: #e68e5f;
+  color: #e68e5f;
 }
-
-
-
-
 
 /* 1ere section */
 
 .section-1 {
-	display: flex;
-	flex-direction: row;
-	width: 100%;
-	height: 700px;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 700px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
 }
 
 /* nav gauche  */
 .nav-gauche {
-	background-color: #272436;
-	height: 600px;
-	width: 15%;
-	-webkit-box-shadow: 1px 5px 12px 1px #000000; 
-	box-shadow: 1px 5px 12px 1px #000000;
+  background-color: #272436;
+  height: 600px;
+  width: 15%;
+  -webkit-box-shadow: 1px 5px 12px 1px #000000;
+  box-shadow: 1px 5px 12px 1px #000000;
 }
 .nav-gauche ul {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 15%;
 }
 .nav-gauche li {
-	list-style: none;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 .nav-gauche button {
-	margin-bottom: 5px;
-	background-color: #e68e5f;
-	height: 50px;
-	width: 150px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-wrap: wrap;
-	border-radius: 5px;
+  margin-bottom: 5px;
+  background-color: #e68e5f;
+  height: 50px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 5px;
 }
 .nav-gauche a {
-	color: #FFF;
+  color: #fff;
 }
 .nav-gauche button:hover {
-	background-color: #FFF;
-	transition: 0.8s;
+  background-color: #fff;
+  transition: 0.8s;
 }
 .nav-gauche a:hover {
-	color: #e68e5f;
+  color: #e68e5f;
 }
 .background-droite {
-	background-image: url(./img/tool-2222458_960_720.webp);
-	background-size: cover;
-	width: 84%;
-	height: 600px;
-	margin-left: 10px;
-	-webkit-box-shadow: 1px 5px 12px 1px #000000;
-	box-shadow: 1px 5px 12px 1px #000000;
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	align-items:flex-end;
-	flex-wrap: wrap;
+  background-image: url(./img/tool-2222458_960_720.webp);
+  background-size: cover;
+  width: 84%;
+  height: 600px;
+  margin-left: 10px;
+  -webkit-box-shadow: 1px 5px 12px 1px #000000;
+  box-shadow: 1px 5px 12px 1px #000000;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+  flex-wrap: wrap;
 }
 .icon {
-	height: 100%;
-	width: 50%;
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 .produit {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	height: 150px;
-	width: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 150px;
+  width: 400px;
 }
 .icon-iconify {
-	background-color: #272440;
-	border-radius: 50px;
-	height: 100px;
-	width: 100px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-wrap: wrap;
-	color: white;
+  background-color: #272440;
+  border-radius: 50px;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: white;
 }
 .bordure {
-	background-color: #e68e5f;
-	height: 110px;
-	width: 110px;
-	border-radius: 50px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-wrap: wrap;
-	-webkit-box-shadow: 1px 5px 12px 1px #000000;
-	box-shadow: 1px 5px 12px 1px #000000;
+  background-color: #e68e5f;
+  height: 110px;
+  width: 110px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  -webkit-box-shadow: 1px 5px 12px 1px #000000;
+  box-shadow: 1px 5px 12px 1px #000000;
 }
 
 .employes {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	height: 150px;
-	width: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 150px;
+  width: 400px;
 }
 .origine {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	height: 150px;
-	width: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 150px;
+  width: 400px;
 }
 
- /* section slide */
- .section-slide {
-	 height: 500px;
-	 border: #e68e5f solid 5px;
-	 margin-bottom: 40px;
-	 -webkit-box-shadow: 1px 5px 12px 1px #000000;
-	 box-shadow: 1px 5px 12px 1px #000000;
- }
- .titre{
-	 text-align: center;
-	 font-size: 30px;
-	 text-decoration: solid #e68e5f 5px overline underline;
- }
+/* section slide */
+.section-slide {
+  height: 500px;
+  border: #e68e5f solid 5px;
+  margin-bottom: 40px;
+  -webkit-box-shadow: 1px 5px 12px 1px #000000;
+  box-shadow: 1px 5px 12px 1px #000000;
+}
+.titre {
+  text-align: center;
+  font-size: 30px;
+  text-decoration: solid #e68e5f 5px overline underline;
+}
 
 #slideshow {
-	position: relative;
-	width: 640px;
-	height: 310px;
-	padding: 15px;
-	margin: 0 auto 2em;
-	border: 1px solid #ddd;
-	background: #FFF;
-	/* CSS3 effects */
-	background: linear-gradient(#FFF, #FFF 20%, #EEE 80%, #DDD);
-	border-radius: 2px 2px 2px 2px;
-	box-shadow: 0 0 3px rgba(0,0,0, 0.2);
+  position: relative;
+  width: 640px;
+  height: 310px;
+  padding: 15px;
+  margin: 0 auto 2em;
+  border: 1px solid #ddd;
+  background: #fff;
+  /* CSS3 effects */
+  background: linear-gradient(#fff, #fff 20%, #eee 80%, #ddd);
+  border-radius: 2px 2px 2px 2px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
 }
- 
+
 /* avanced box-shadow
  * tutorial @
  * https://www.creativejuiz.fr/blog/les-tutoriels/ombre-avancees-avec-css3-et-box-shadow
 */
 #slideshow:before,
 #slideshow:after {
-	position: absolute;
-	bottom:16px;
-	z-index: -10;
-	width: 50%;
-	height: 20px;
-	content: " ";
-	background: rgba(0,0,0,0.1);
-	border-radius: 50%;
-	box-shadow: 0 0 3px rgba(0,0,0, 0.4), 0 20px 10px rgba(0,0,0, 0.7);
+  position: absolute;
+  bottom: 16px;
+  z-index: -10;
+  width: 50%;
+  height: 20px;
+  content: " ";
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.4), 0 20px 10px rgba(0, 0, 0, 0.7);
 }
 #slideshow:before {
-	left:0;
-	transform: rotate(-4deg);
+  left: 0;
+  transform: rotate(-4deg);
 }
 #slideshow:after {
-	right:0;
-	transform: rotate(4deg);
+  right: 0;
+  transform: rotate(4deg);
 }
 #slideshow .container {
-	position:relative;
-	width: 640px;
-	height: 310px;
-	overflow: hidden;
+  position: relative;
+  width: 640px;
+  height: 310px;
+  overflow: hidden;
 }
-	
+
 /* on prévoit un petit espace gris pour la timeline */
 #slideshow .container:after {
-	position:absolute;
-	bottom: 0; left:0;
-	content: " ";
-	width: 100%;
-	height: 1px;
-	background: #999;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: " ";
+  width: 100%;
+  height: 1px;
+  background: #999;
 }
 /* 
    le conteneur des slides
    en largeur il fait 100% x le nombre de slides
 */
 #slideshow .slider {
-	position: absolute;
-	left:0; top:0;
-	width: 400%;
-	height: 310px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 400%;
+  height: 310px;
 }
 
 /* annulation des marges sur figure */
 #slideshow figure {
-	position:relative;
-	display:inline-block;
-	padding:0; margin:0;
+  position: relative;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
 }
 /* petit effet de vignette sur les images */
 #slideshow figure:after {
-	position: absolute;
-	display:block;
-	content: " ";
-	top:0; left:0;
-	width: 100%; height: 100%;
-	box-shadow: 0 0 65px rgba(0,0,0, 0.5) inset;
+  position: absolute;
+  display: block;
+  content: " ";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 65px rgba(0, 0, 0, 0.5) inset;
 }
 #slideshow figcaption {
-	position:absolute;
-	left:0; right:0; bottom: 5px;
-	padding: 20px;
-	margin:0;
-	border-top: 1px solid rgb(225,225,225);
-	text-align:center;
-	letter-spacing: 0.05em;
-	word-spacing: 0.05em;
-	font-family: Georgia, Times, serif;
-	background: #fff;
-	background: rgba(255,255,255,0.7);
-	color: #555;
-	text-shadow: -1px -1px 0 rgba(255,255,255,0.3);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 5px;
+  padding: 20px;
+  margin: 0;
+  border-top: 1px solid rgb(225, 225, 225);
+  text-align: center;
+  letter-spacing: 0.05em;
+  word-spacing: 0.05em;
+  font-family: Georgia, Times, serif;
+  background: #fff;
+  background: rgba(255, 255, 255, 0.7);
+  color: #555;
+  text-shadow: -1px -1px 0 rgba(255, 255, 255, 0.3);
 }
 @keyframes slider {
-	0%, 20%, 100%	{ left: 0 }
-	25%, 45%		{ left: -100% }
-	50%, 70%		{ left: -200% }
-	75%, 95%		{ left: -300% }
+  0%,
+  20%,
+  100% {
+    left: 0;
+  }
+  25%,
+  45% {
+    left: -100%;
+  }
+  50%,
+  70% {
+    left: -200%;
+  }
+  75%,
+  95% {
+    left: -300%;
+  }
 }
 /* complétez le sélecteur : */
 #slideshow .slider {
-	/* ... avec la propriété animation */
-	animation: slider 32s infinite;
+  /* ... avec la propriété animation */
+  animation: slider 32s infinite;
 }
 #timeline {
-	position: absolute;
-	background: #999;
-	bottom: 15px;
-	left: 15px;
-	height: 1px;
-	background: rgb(214,98,13);
-	background: rgba(214,98,13,.8);
-	width: 0;
-	/* fonction d'animation */
-	animation: timeliner 32s infinite;
+  position: absolute;
+  background: #999;
+  bottom: 15px;
+  left: 15px;
+  height: 1px;
+  background: rgb(214, 98, 13);
+  background: rgba(214, 98, 13, 0.8);
+  width: 0;
+  /* fonction d'animation */
+  animation: timeliner 32s infinite;
 }
 @keyframes timeliner {
-	0%, 25%, 50%, 75%, 100%	{ width: 0;		}
-	20%, 45%, 70%, 90%		{ width: 640px;	}
+  0%,
+  25%,
+  50%,
+  75%,
+  100% {
+    width: 0;
+  }
+  20%,
+  45%,
+  70%,
+  90% {
+    width: 640px;
+  }
 }
 @keyframes figcaptionner {
-	0%, 25%, 50%, 75%, 100%						{ bottom: -55px;	}
-	5%, 20%, 30%, 45%, 55%, 70%, 80%, 95%		{ bottom: 5px;		}
+  0%,
+  25%,
+  50%,
+  75%,
+  100% {
+    bottom: -55px;
+  }
+  5%,
+  20%,
+  30%,
+  45%,
+  55%,
+  70%,
+  80%,
+  95% {
+    bottom: 5px;
+  }
 }
 /* ajouter à l'élément : */
 #slideshow figcaption {
-	/* ... la propriété animation */
-	animation: figcaptionner 32s infinite;
+  /* ... la propriété animation */
+  animation: figcaptionner 32s infinite;
 }
-
-
-
 
 /* footer */
 
 footer {
-	background-color: #5D4E6D;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	flex-wrap: wrap;
-	-webkit-box-shadow: 1px 5px 12px 1px #000000; 
-	box-shadow: 1px 5px 12px 1px #000000;
-
+  background-color: #5d4e6d;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  -webkit-box-shadow: 1px 5px 12px 1px #000000;
+  box-shadow: 1px 5px 12px 1px #000000;
 }
 .footer-logo {
-    height: 100px;
+  height: 100px;
 }
 .network {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
-	flex-wrap: wrap;
-	width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 20%;
 }
 
+@media screen and (min-width: 375px) and (max-width: 820px) {
+  header {
+    flex-direction: column;
+    height: 450px;
+  }
+  .nav_logo {
+    height: 80px;
+    margin-right: 250px;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+  nav li {
+    margin-top: 15px;
+    margin-left: 100px;
+  }
+  .header-button {
+    margin-right: 250px;
+  }
 
-@media screen and (min-width:375px) and (max-width: 820px) {
-	
-	.nav-gauche{
-		width: 300px;
-	}
-	.nav-gauche button {
-		width: 250px;
-		margin-left: -10px;
-	
-	}
+  /* section 1 */
+  .nav-gauche {
+    width: 300px;
+  }
+  .nav-gauche button {
+    width: 250px;
+    margin-left: -10px;
+  }
+  .background-droite {
+    background-image: none;
+    display: none;
+  }
+
+  /* section slide */
+  .titre h1 {
+    font-size: 25px;
+  }
+  #slideshow {
+    height: 400px;
+    width: 300px;
+  }
+  #slideshow img {
+    height: 395px;
+    width: 305px;
+  }
+
+  /* footer */
+  footer {
+    height: 150px;
+  }
+  .footer-logo {
+    height: 50px;
+  }
+  .network {
+    height: 150px;
+  }
+  .iconify {
+    height: 30px;
+  }
 }
