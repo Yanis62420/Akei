@@ -6,6 +6,8 @@ header {
     flex-wrap: wrap;
     -webkit-box-shadow: 1px 5px 12px 1px #000000; 
 	box-shadow: 1px 5px 12px 1px #000000;
+    flex-wrap: wrap;
+    border-radius: 15px;
 }
 
 .nav_logo {
@@ -20,25 +22,25 @@ nav ul {
     width: 600px;
 }
 nav li {
-    list-style: none;
+    list-style: none; /* enléve le point devant une liste*/
 }
 nav a {
     color: #e68e5f;
-    text-decoration: none;
+    text-decoration: none; /* enlève le trait sous le lien*/
 }
 .header-button {
-    background-color: #e68e5f;
+    background-color: #e68e5f; /* couleur bouton panier */
     height: 50px;
     width: 150px;
     border-radius: 15px;
 }
 .header-button a {
     text-decoration: none;
-    color: #FFF;
+    color: #FFF; /* couleur texte bouton panier */
     font-size: 15px;
 }
 .header-button:hover {
-    background-color: #FFF;
+    background-color: #FFF; /* couleur au survol du bouton panier */
     transition: 0.8s;
 }
 .header-button a:hover {
@@ -81,6 +83,7 @@ h1{
     padding-left: 70px;
     border-radius: 15px;
     margin-bottom: 50px;
+    flex-wrap: wrap;
 }
 .nav-gauche ul {
 	display: flex;
@@ -142,76 +145,22 @@ p{
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    flex-wrap: wrap;
 }
 
-.rideauEtPara{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
-}
-
-.rideau{
-    width: 192px;
-    height: 352px;
-    border-radius: 15px;
-    object-fit: cover;
-
-}
-
-.tapisEtPara{
+.container{
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-.tapis{
+.image4{
     width: 192px;
     height: 352px;
     border-radius: 15px;
     object-fit: cover;
 }
 
-.DecorationMurale{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.murale{
-    width: 192px;
-    height: 352px;
-    border-radius: 15px;
-    object-fit: cover;
-
-}
-
-.eclairageEtPara{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.eclairage{
-    width: 192px;
-    height: 352px;
-    border-radius: 15px;
-    object-fit: cover;
-
-}
-
-.revetementEtPara{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.revetement{
-    width: 192px;
-    height: 352px;
-    border-radius: 15px;
-    object-fit: cover;
-}
 
 /********************** Footer ***************************/
 
@@ -223,4 +172,79 @@ footer{
     flex-wrap: wrap;
     -webkit-box-shadow: 1px 5px 12px 1px #000000; 
 	box-shadow: 1px 5px 12px 1px #000000;
+    border-radius: 15px;
+}
+
+/********************************************************/
+
+@media only screen and (max-width:375px){
+
+nav ul { /* Header*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 150px;
+    text-align: center;
+}
+
+.image{
+    display: none;
+}
+
+/* nav gauche  */
+.nav-gauche {
+    width: auto;
+    height: auto;
+}
+
+.nav-gauche button {
+    /* background-color: blue; */
+    margin-right: 85px;
+}
+
+}
+
+
+@media (max-width :801px) and (min-width : 400px){
+
+nav ul { /* Header*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 400px;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: auto;
+    }
+
+header{
+    justify-content: space-around;
+    text-align: center;
+    }
+
+.nav-gauche {   /* nav gauche  */
+    width: 20vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    padding: 0 !important;
+    /* margin: 0 !important; */
+}
+
+.nav-gauche ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.image{
+    max-width: 600px;
+    max-height: 300px;
+}
+
+
 }
