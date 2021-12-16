@@ -6,6 +6,7 @@ header {
     flex-wrap: wrap;
     -webkit-box-shadow: 1px 5px 12px 1px #000000; 
 	box-shadow: 1px 5px 12px 1px #000000;
+    border-radius: 15px;
 }
 
 .nav_logo {
@@ -15,7 +16,7 @@ header {
 nav ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     width: 600px;
 }
@@ -47,7 +48,7 @@ nav a {
 
 /************************* Fin Header ************************/
 
-.paraHaut{
+.paraHaut{      /* promotions du moment */
     display: flex;
     font-size: 30px;
     align-items: center;
@@ -56,16 +57,15 @@ nav a {
     margin-top: 50px;
 }
 
-.Haut{              /* DIV qui contient .nav-gauche + h1 + .photosHaut*/
+.Haut{          /* DIV qui contient .nav-gauche + h1 + .photosHaut*/
     display:flex;
     flex-direction:row;
     width: 100%;
     height: 600px;
     margin-bottom: 100px;
-    
 }
-/* nav gauche  */
-.nav-gauche {
+
+.nav-gauche {   /* nav gauche  */
 	background-color: #272436;
 	height: 600px;
 	width: 25%;
@@ -91,7 +91,7 @@ nav a {
 	justify-content: space-around;
 	align-items: center;
 }
-.nav-gauche button {
+.nav-gauche button {    /* boutons nav-gauche */
 	margin-bottom: 5px;
 	background-color: #e68e5f;
 	height: 50px;
@@ -103,10 +103,10 @@ nav a {
 	flex-wrap: wrap;
 	border-radius: 5px;
 }
-.nav-gauche a {
+.nav-gauche a {     /* couleurs texte nav-gauche */
 	color: #FFF;
 }
-.nav-gauche button:hover {
+.nav-gauche button:hover {      /* au survol changement couleur boutons nav-gauche */
 	background-color: #FFF;
 	transition: 0.8s;
 }
@@ -115,7 +115,8 @@ nav a {
 }
 
 
-/***********/
+/************************************************/
+
 h1{
     margin-bottom: 50px;
     align-items: center;
@@ -124,6 +125,7 @@ h1{
 
 .photosHaut{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     text-align: center;
@@ -131,25 +133,21 @@ h1{
     /* margin-bottom: 50px; */
     width: 75%;
     /* margin-top: 0px; */
-    
 }
 
-.RadiateurSoufflantMobile{
+.container{
     justify-content: center;
     align-items: center;
     text-align: center;
-    
-
 }
 
-.SoufflantMobile{
+.image9{
     width: 250px;
     height: 450px;
     border-radius: 15px;
     object-fit: cover;
-    /* -webkit-box-shadow: 1px 5px 12px 1px #000000;  */
-	/* box-shadow: 1px 5px 12px 1px #000000; */
-
+    -webkit-box-shadow: 1px 5px 12px 1px #000000; 
+	box-shadow: 1px 5px 12px 1px #000000;
 }
 
 .RideauIsolantThermique{
@@ -163,8 +161,8 @@ h1{
     height: 450px;
     border-radius: 15px;
     /* object-fit: cover; */
-    /* -webkit-box-shadow: 1px 5px 12px 1px #000000;  */
-	/* box-shadow: 1px 5px 12px 1px #000000; */
+    -webkit-box-shadow: 1px 5px 12px 1px #000000; 
+	box-shadow: 1px 5px 12px 1px #000000;
 }
 
 .RadiateurBainHuile{
@@ -179,12 +177,11 @@ h1{
     height: 450px;
     border-radius: 15px;
     object-fit: cover;
-    /* -webkit-box-shadow: 1px 5px 12px 1px #000000;  */
-	/* box-shadow: 1px 5px 12px 1px #000000; */
-
+    -webkit-box-shadow: 1px 5px 12px 1px #000000; 
+	box-shadow: 1px 5px 12px 1px #000000;
 }
 
-/***********/
+/************************************************/
 
 .ventesExpress{
     width: 100%;
@@ -206,6 +203,15 @@ h1{
     text-align: center;
 }
 
+h2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 100px;
+}
+
 .Une{
     width: 230px;
     height: 70px;
@@ -225,18 +231,19 @@ h1{
 footer{
     background-color: #5D4E6D;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
     margin-top: 50px;
     -webkit-box-shadow: 1px 5px 12px 1px #000000; 
 	box-shadow: 1px 5px 12px 1px #000000;
+    border-radius: 15px;
 }
 
 
 /********************************************************/
 
-@media only screen and (min-width:375px){
+@media only screen and (max-width:375px){
 
     nav ul { /* Header*/
         display: flex;
@@ -245,7 +252,99 @@ footer{
         flex-wrap: wrap;
         width: 150px;
         text-align: center;
-        /* justify-content: center; */
-        /* margin: auto; */
     }
-}
+    
+    .paraHaut{
+        display: none;
+    }
+
+    .photosHaut{
+        display: none;
+    }
+
+    
+    .nav-gauche {   /***************** nav gauche  ****************/
+        width: auto;
+        height: 700px;
+        margin-left: 10px;
+    }
+    
+    .nav-gauche button {
+        margin-right: 85px;
+    }
+    
+    .ventesExpress{
+        margin-top: 100px;
+    }
+
+    .photosBas{
+        flex-direction: column;
+    }
+    
+    .image3{
+        width: 200px;
+        height: 200px;
+    }
+    
+    .Haut{
+        margin-bottom: 100px;
+    }
+    
+    }
+    
+    /********************************************************/
+    @media (min-width : 400px) and (max-width :801px){
+    /********************************************************/
+
+    nav ul {            /* Header*/
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        width: 400px;
+        text-align: center;
+        margin: 0;
+        }
+    
+    header{
+        justify-content: center;
+        text-align: center;
+        }
+
+    .container8{
+        display: none;
+    }
+
+    .Haut{
+        margin-bottom: 100px;
+    }
+
+    .ventesExpress{
+        margin-top: 100px;
+    }
+
+    .nav-gauche {    /* nav gauche  */
+        width: 20vw;
+        height: 45vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 0 !important;
+    }
+    
+    .nav-gauche ul {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .image{
+        max-width: 600px;
+        max-height: 300px;
+    }
+    
+    .section-slide {
+        width: auto;
+    }
+    
+    }

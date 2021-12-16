@@ -161,7 +161,7 @@ section {
     
     width: 20%;
     position: fixed;
-    top: 10;
+    top: 0;
 }
 .nav-gauche ul {
 	display: flex;
@@ -198,6 +198,7 @@ section {
 .nav-gauche a:hover {
 	color: #e68e5f;
 }
+
 main {
     display: flex;
     width: 80%;
@@ -224,4 +225,30 @@ footer {
 	align-items: center;
 	flex-wrap: wrap;
 	width: 20%;
+}
+@media screen and (min-width: 375px) and (max-width: 820px){
+    .nav_logo {
+        height: 80px;
+      }
+      header {
+        height: 300px;
+      }
+      nav ul {
+        flex-direction: column;
+      }
+      nav li {
+        margin-left: 220px;
+      }
+      
+      .nav-gauche {
+          width: 300px;
+      } 
+      .nav-gauche button {
+        width: 250px;
+        margin-left: -10px;
+      }
+      .section-1{
+          flex-direction: column;
+          display: flex;
+      }
 }

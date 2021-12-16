@@ -7,6 +7,7 @@ header {
     -webkit-box-shadow: 1px 5px 12px 1px #000000; 
 	box-shadow: 1px 5px 12px 1px #000000;
     flex-wrap: wrap;
+    border-radius: 15px;
 }
 
 .nav_logo {
@@ -171,6 +172,7 @@ footer{
     flex-wrap: wrap;
     -webkit-box-shadow: 1px 5px 12px 1px #000000; 
 	box-shadow: 1px 5px 12px 1px #000000;
+    border-radius: 15px;
 }
 
 /********************************************************/
