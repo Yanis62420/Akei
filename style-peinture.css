@@ -1,3 +1,8 @@
+body{
+    font-family: 'Merriweather', serif;
+    font-family: 'Poppins', sans-serif;
+}
+
 header {
     background-color: #5D4E6D;
     display: flex;
@@ -9,8 +14,18 @@ header {
     border-radius: 15px;
 }
 
-.nav_logo {
+.nav_logo {   /* animation du logo*/
     height: 100px;
+    animation: myAnim 2s ease 0s 1 normal forwards;
+}
+@keyframes myAnim {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 nav ul {
@@ -133,11 +148,21 @@ h1{
     text-align: center;
 }
 
-h2{
+h2{     /* Catégories */
+    display: flex;
+    justify-content: center;
     margin-top: 100px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
     align-items: center;
     text-align: center;
+    width: 140px;
+    height: 50px;
+    background-color: #e68e5f;
+    border-radius: 15px;
+    -webkit-box-shadow: 1px 5px 12px 1px #000000; 
+	box-shadow: 1px 5px 12px 1px #000000;
 }
 
 
