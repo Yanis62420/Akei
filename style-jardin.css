@@ -43,6 +43,7 @@ nav a {
 .jardin {
     justify-content: center;
     text-align: center;
+    flex-wrap: wrap;
     
 }
 .jardin h2{
@@ -249,6 +250,59 @@ footer {
       }
       .section-1{
           flex-direction: column;
-          display: flex;
+          display:none;
       }
-}
+      .jardin {
+          height: auto;
+          flex-direction: column;
+      }
+      .jardin h2 {
+          font-size: 20px;
+          margin-right: 200px;
+      }
+      .text {
+          font-size: 14px;
+          text-align: center;
+          margin-right: 250px;
+      }
+      .image {
+          width: 125px;
+          height: 125px;
+      }
+      .article {
+          flex-direction: column;
+          margin-right: 400px;
+      }
+      .article1 {
+        flex-direction: column;
+        margin-right: 600px;
+    }
+    .ventes {
+        flex-direction: column;
+    }
+    .image1 {
+        width: 135px;
+        height: 135px;
+    }
+    #histoire {
+        width: 100px;
+        height: 35px;
+        margin-left: 20px;
+    }
+    .image-produit{
+        flex-direction: column;
+        margin-right: 200px;
+    }
+    footer {
+        height: 150px;
+      }
+      .footer-logo {
+        height: 50px;
+      }
+      .network {
+        height: 150px;
+      }
+      .iconify {
+        height: 30px;
+      }
+    }
