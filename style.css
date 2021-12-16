@@ -76,7 +76,7 @@ nav a {
   width: 15%;
 }
 .nav-gauche li {
-  list-style: none;
+  list-style: no;
   display: flex;
   flex-direction: row;
   justify-content: space-around;

@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant</title>
     <link rel="stylesheet" href="style-restaurant.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mukta:wght@700&family=Open+Sans:wght@300&family=Princess+Sofia&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -30,55 +35,123 @@
     <main>
         <section class="first-block">
             <!--Premier bloc-->
+
             <div class="bloc">
                 <h2>Restaurant</h2>
                 <p>Akei vous propose son service de restauration pour votre confort extrême.</p>
                 <h3>Menu</h3>
             </div>
         </section>
+        <!--Menu -->
+
         <section class="second-block">
             <!--Premier bloc-->
-            <div class="blok">
-                <div class="title">
-                    <h4>Pot au feu</h4>
+            <div class="first-partie">
+                <div class="blok">
+                    <div class="title">
+                        <h4>Pot au feu</h4>
+                    </div>
+                    <div class="text">
+                        <p>Retrouvez dans votre restaurant Akei le fameux Pot au Feu gastronomique, préparé par nos chef
+                            d’exception </p>
+                        <img src="img-resto/pot-au-feu.jpg" alt="Photo d'un pot au feu" class="img">
+                        <form method="link" action="https://fr.wikipedia.org/wiki/Moules-frites"> <input type="submit" class="btn" value="En savoir plus"></form>
+                    </div>
                 </div>
-                <div class="text">
-                    <p>Retrouvez dans votre restaurant Akei le fameux Pot au Feu gastronomique, préparé par nos chef
-                        d’exception </p>
-                    <img src="img-resto/pot-au-feu.jpg" alt="Photo d'un pot au feu" class="img">
+                <!--2ème bloc-->
+                <div class="blok">
+                    <div class="title">
+                        <h4>Moule Frite</h4>
+                    </div>
+                    <div class="text">
+                        <p>Retrouvez dans votre restaurant Akei le mythique plat gastronomique, les moules frites.
+                            Préparé par nos chef d’exception </p>
+                        <img src="img-resto/moule.jpeg" alt="Photo de moule frite" class="img">
+                        <form method="link" action="https://fr.wikipedia.org/wiki/Moules-frites"> <input type="submit" class="btn" value="En savoir plus"></form>
+                    </div>
                 </div>
             </div>
-            <!--2ème bloc-->
-            <div class="title">
-                <h4>Moule Frite</h4>
-            </div>
-            <div class="text">
-                <p>Retrouvez dans votre restaurant Akei le mythique plat gastronomique, les moules frites.
-                    Préparé par nos chef d’exception </p>
-                <img src="img-resto/moule.jpeg" alt="Photo de moule frite" class="img">
-            </div>
-
+          
+            <div class="two-partie">
             <div class="blok2">
                 <div class="title">
                     <h4>Empanadas</h4>
                 </div>
                 <div class="text">
                     <p>Retrouvez dans votre restaurant Akei les Empanadas, ce chausson fourré à la viande hachée
-                        tout droit venu des pays latinos préparé par nos chef d’exception. </p>
+                       préparé par nos chef d’exception. </p>
                     <img src="img-resto/empanadas.jpeg" alt="Photo d'empanadas" class="img">
+                    <form method="link" action="https://fr.wikipedia.org/wiki/Empanada"> <input type="submit" class="btn" value="En savoir plus"></form>
                 </div>
             </div>
+            <div class="blok2">
             <div class="title">
                 <h4>Blanquette de veau</h4>
             </div>
             <div class="text">
-                <p>Retrouvez dans votre restaurant Akei le fameux Pot au Feu gastronomique, préparé par nos chef
-                    d’exception </p>
-                <img src="img-resto/pot-au-feu.jpg" alt="Photo d'une blanquette de veau" class="img">
+                <p>Un plat traditionnel de la cuisine française : la blanquette de veau préparé avec amour et passion pour la gastronomie française </p>
+                <img src="img-resto/blanquette.jpeg" alt="Photo d'un pot au feau" class="img">
+                <form method="link" action="https://fr.wikipedia.org/wiki/Blanquette_de_veau"> <input type="submit"  class="btn" value="En savoir plus"></form>
             </div>
             </div>
+        </div>
         </section>
+        <section class="slide">
+            <section class="section-slide">
+                <div class="titre">
+                    <h5>Nos locaux</h5>
+                </div>
+                <div id="slideshow">
+    
+    
+                    <div class="container">
+                        <div class="c_slider"></div>
+                        <div class="slider">
+                            <figure>
+                                <img src="img-resto/restaurant.jpg" alt="Photo du restaurant" width="640"
+                                    height="310" />
+                                <figcaption>Entrée</figcaption>
+    
+                            </figure>
+                            <!--
+                        -->
+                            <figure>
+                                <img src="img-resto/menu.jpg"
+                                    alt="" width="640" height="310" />
+                                <figcaption>Menu</figcaption>
+                            </figure>
+                            <!--
+                        -->
+                            <figure>
+                                <img src="img-resto/dehors.jpg"
+                                    alt="Photo de dehors d'un resto" width="640" height="310" />
+                                <figcaption>Le restaurant vu dehors</figcaption>
+    
+                            </figure>
+                            
+                        </div>
+                    </div>
+    
+                    <span id="timeline"></span>
+                    <script src="script-restaurant.js"></script>
+                </div>
+            </section>
     </main>
+    <footer>
+        <div class="logo">
+            <img src="image/Logo-Akei.jpg" alt="logo" class="nav_logo">
+        </div>
+        <nav>
+            <ul>        
+                <li><a href="https://www.instagram.com/accounts/login/"><img src="image/instagram.png" alt=""></a></li>
+                <li><a href="https://fr-fr.facebook.com/"><img src="image/facebook (2).png" alt=""></a></li>
+                <li><a href="https://fr.linkedin.com/"><img src="image/In.png" alt=""></a></li>
+            </ul>
+        </nav>
+        <div class="top-arrow">
+            <a href="#"><span class="iconify" data-icon="oi:arrow-circle-top" style="color: white;" data-height="50px"></span></a>
+        </div>
+    </footer>
 </body>
 
 </html>

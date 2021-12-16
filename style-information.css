@@ -45,7 +45,7 @@ nav a {
 
 .title {
     text-align: center;
-    align-items: center;
+    
     
 }
 h2 {
@@ -58,6 +58,8 @@ h2 {
     justify-content: space-around;
     margin-top: 100px;
     text-align: center;
+    margin-left: 300px;
+
 }
 
 .bas {
@@ -66,6 +68,7 @@ h2 {
     justify-content: space-around;
     margin-top: 100px;
     text-align: center;
+    margin-left: 275px;
     
 
 }
@@ -100,7 +103,7 @@ footer {
     
     width: 20%;
     position: fixed;
-    top: 10;
+    top: 1;
 }
 .nav-gauche ul {
 	display: flex;
@@ -137,8 +140,15 @@ footer {
 .nav-gauche a:hover {
 	color: #e68e5f;
 }
-main {
-    display: flex;
+
+.title {
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
     
-    
+}
+p {
+    text-align: center;
+    flex-direction: column;
+    font-size: 10px;
 }
