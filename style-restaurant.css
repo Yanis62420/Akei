@@ -48,7 +48,7 @@ nav a {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-left: 400px;
+    
 }
 .bloc h3 {
     margin-left: 50px;
@@ -237,3 +237,61 @@ footer {
     flex-wrap: wrap;
     width: 20%;
   }
+  @media screen and (min-width: 375px) and (max-width: 820px){
+    .nav_logo {
+        height: 80px;
+      }
+      header {
+        height: 300px;
+      }
+      nav ul {
+        flex-direction: column;
+      }
+      nav li {
+        margin-left: 220px;
+      }
+      
+      .nav-gauche {
+        width: 300px;
+        position: relative;
+        margin-left: 50px;
+        margin-top: 50px;
+      }
+      .nav-gauche button {
+        width: 250px;
+        margin-left: -10px;
+      }
+      .bloc {
+          height: 300px;
+          text-align: center;
+          margin-left: 70px;
+      }
+      .bloc h3 {
+          text-align: center;
+          margin-right: 70px;
+      }
+      .first-partie {
+          text-align: center;
+          flex-direction: column;
+          margin-left: 75px;
+      }
+      .blok {
+          margin-top: 50px;
+      }
+      .two-partie {
+          flex-direction: column;
+          margin-left: 75px;
+      }
+      .container {
+          height: 200px;
+          width: 400px;
+      }
+      #slideshow {
+        height: 400px;
+        width: 300px;
+      }
+      #slideshow img {
+        height: 305px;
+        width: 305px;
+      }
+    } 
