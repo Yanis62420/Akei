@@ -153,7 +153,9 @@ p {
         margin-left: 0px;
         width: 100%;
     }
-    
+    .hamburger,#toggle {
+        display: none;
+    }
     input[type=submit] {
         background-color: #f68e5f;
         color: #f3f7f0;
@@ -201,16 +203,33 @@ p {
       nav li {
         margin-left: 220px;
       }
-      
+      .nav-gauche ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
       .nav-gauche {
-        width: 300px;
-        position: relative;
-        margin-left: 50px;
-        margin-top: 50px;
+        margin: 100px auto;
+        width: 50%;
+        height: 100px;
+        background: #48435C
       }
       .nav-gauche button {
         width: 250px;
         margin-left: -10px;
+      }
+      .nav-gauche a {
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        text-decoration: none;
+        font-family: Arial, sans-serif;
+        color: white;
+      }
+      .nav-gauche a:hover {
+        background: #5A5766
       }
       .logo {
           flex-direction: column;
