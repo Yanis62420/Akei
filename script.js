@@ -75,4 +75,3 @@ window.onload = function () {
 
 
 
-//   notation par etoile

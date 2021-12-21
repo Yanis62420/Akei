@@ -96,6 +96,7 @@ nav a {
 	text-align: left;
 	margin-left: 10px;
 }
+
 .btn {
 	background-color: #e68e5f;
 	height: 50px;
@@ -223,3 +224,65 @@ footer {
 	flex-wrap: wrap;
 	width: 20%;
 }
+@media screen and (min-width:360px) and (max-width: 820px) {
+
+
+
+	.nav_logo {
+	  height: 80px;
+	}
+	header {
+	  height: 300px;
+	}
+	nav ul {
+	  flex-direction: column;
+	}
+	nav li {
+	  margin-left: 220px;
+	}
+	.header-button{
+	  display: none;
+	}	
+	.titre-1{
+		font-size: 20px;
+	}
+	.recap{
+		display: none;
+	}
+	.paiement{
+		width: 100%;
+	}
+	.prix{height: 100px;
+	}
+	.reduc{
+		height: 100px;
+	}
+	#reduc {
+		width: 180px;
+	}
+	.btn-reduc{
+		height: 32px;
+	}
+	.section-livraison{
+		height: 1500px;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.livraison{
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	.mode {
+		width: 300px;
+		background-color: #7e9181;
+	
+	}
+	.liv-btn {
+		background-color: #7e9181;
+	}
+	.liv-btn a {
+		color:#fff ;
+	}
+  }
